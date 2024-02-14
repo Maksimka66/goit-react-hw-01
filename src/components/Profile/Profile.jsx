@@ -1,13 +1,11 @@
-import userData from "/userData.json";
+import "./Profile.module.css";
 
-const renderProfile = ({
-  userData: { username, tag, location, avatar, stats },
-}) => {
+const Profile = ({ name, tag, location, image, stats }) => {
   return (
     <div>
       <div>
-        <img src={avatar} alt="User avatar" />
-        <p>{username}</p>
+        <img src={image} alt="User avatar" />
+        <p>{name}</p>
         <p>@{tag}</p>
         <p>{location}</p>
       </div>
@@ -30,4 +28,4 @@ const renderProfile = ({
   );
 };
 
-export default renderProfile;
+export default Profile;
