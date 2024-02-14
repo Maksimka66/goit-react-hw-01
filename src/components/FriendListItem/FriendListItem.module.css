@@ -1,0 +1,16 @@
+.userInfo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: gray;
+  font-weight: 200;
+  font-size: 32px;
+}
+
+.userInfo.isOnline {
+  font-size: 16px;
+  color: green;
+}
+
+.userInfo.isOffline {
+  font-size: 16px;
+  color: red;
+}

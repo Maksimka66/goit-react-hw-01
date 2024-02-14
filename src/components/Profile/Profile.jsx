@@ -6,11 +6,11 @@ const Profile = ({ name, tag, location, image, stats }) => {
       <div>
         <img src={image} alt="User avatar" />
         <p className={styles.firstParagraph}>{name}</p>
-        <p>@{tag}</p>
-        <p>{location}</p>
+        <p className={styles.userInfo}>@{tag}</p>
+        <p className={styles.userInfo}>{location}</p>
       </div>
 
-      <ul>
+      <ul className={styles.userList}>
         <li>
           <span>Followers</span>
           <span>{stats.followers}</span>
