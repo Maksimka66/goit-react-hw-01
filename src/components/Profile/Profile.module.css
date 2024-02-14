@@ -9,7 +9,7 @@
   border-radius: 16px;
 }
 
-li {
+.element {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -32,7 +32,7 @@ li span:first-child {
   font-size: 32px;
 }
 
-img {
+.photo {
   display: block;
   border-radius: 50%;
   background-color: gray;
