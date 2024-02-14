@@ -1,11 +1,11 @@
-import "./Profile.module.css";
+import styles from "./Profile.module.css";
 
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
     <div>
       <div>
         <img src={image} alt="User avatar" />
-        <p>{name}</p>
+        <p className={styles.firstParagraph}>{name}</p>
         <p>@{tag}</p>
         <p>{location}</p>
       </div>
