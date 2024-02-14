@@ -6,11 +6,13 @@
 }
 
 .isOnline {
+  composes: friendInfo;
   font-size: 32px;
   color: green;
 }
 
 .isOffline {
+  composes: friendInfo;
   font-size: 32px;
   color: red;
 }
